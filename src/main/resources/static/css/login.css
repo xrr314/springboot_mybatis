@@ -43,4 +43,7 @@ body{ font-family:'微软雅黑';background: #2074bb;}
 
 #ft{ position:absolute;left:0;right:0;bottom:40px; color:#10486b; text-align:center; z-index:2;}
 
-
+.form_text {
+    BORDER-BOTTOM: #cecece 1px solid; BORDER-LEFT: #707070 1px solid; PADDING: 3px; BACKGROUND: url(images/form_text.jpg) repeat-x 50% top; BORDER-TOP: #707070 1px solid; BORDER-RIGHT: #cecece 1px solid;
+    width: 132px;
+}

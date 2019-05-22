@@ -1,0 +1,12 @@
+driver:
+  class:
+    path: C:\Program Files\MySQL\Connector ODBC 8.0\mysql-connector-java-8.0.11.jar
+jdbc:
+  driver: com.mysql.cj.jdbc.Driver
+  userId: root
+  password: 123456
+  connectionURL: jdbc:mysql://127.0.0.1:3306/idea?serverTimezone=UTC
+base:
+  package: com.xrr.springboot_mybatis
+target:
+  project: src/main/java

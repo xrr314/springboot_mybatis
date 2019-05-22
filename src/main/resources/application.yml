@@ -7,7 +7,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/idea?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: 123456
-
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.xrr.springboot_mybatis.entity
